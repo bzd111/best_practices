@@ -3,7 +3,7 @@ def inc(x: int) -> int:
 
 
 def hello(s: str) -> str:
-    return 'Hello, World'
+    return "Hello, World"
 
 
 def test_answer() -> None:
