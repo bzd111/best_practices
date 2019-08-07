@@ -4,11 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-black = "*"
 isort = "*"
 mypy = "*"
 pytest = "*"
 flake8 = "*"
+pre-commit = "*"
 
 [packages]
 
