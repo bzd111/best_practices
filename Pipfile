@@ -8,8 +8,8 @@ isort = "*"
 mypy = "*"
 pytest = "*"
 flake8 = "*"
-pre-commit = "*"
 black = "*"
+pytest-cov = "*"
 
 [packages]
 
