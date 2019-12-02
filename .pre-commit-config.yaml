@@ -35,9 +35,8 @@ repos:
         name: pytest
         stages: [commit]
         language: system
-        entry: python -m pytest -v tests
+        entry: python -m pytest -v
         types: [python]
-
       - id: pytest-cov
         name: pytest
         stages: [push]
