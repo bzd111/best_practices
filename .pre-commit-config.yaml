@@ -12,7 +12,7 @@ repos:
         name: black
         stages: [commit]
         language: system
-        entry: pipenv run black -S
+        entry: pipenv run black
         types: [python]
 
       - id: flake8
@@ -37,6 +37,7 @@ repos:
         language: system
         entry: python -m pytest -v
         types: [python]
+
       - id: pytest-cov
         name: pytest
         stages: [push]
