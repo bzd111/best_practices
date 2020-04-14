@@ -29,7 +29,7 @@ repos:
         language: system
         entry: pipenv run mypy
         types: [python]
-        pass_filenames: false
+        # pass_filenames: false
 
       - id: pytest
         name: pytest
